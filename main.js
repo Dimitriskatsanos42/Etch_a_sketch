@@ -61,7 +61,6 @@ function changeToLightGrid() {
     grid.classList.remove('gridContainerDark')
 }
 
-
 const userInput = document.getElementById('gridSize')
 userInput.addEventListener("keypress", event => changeGridSize(event))
 
@@ -77,7 +76,6 @@ function changeGridSize(event) {
         }
     }
 }
-
 
 function getRandomHexCode() {
     const characters = '0123456789ABCDEF'
