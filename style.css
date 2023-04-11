@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Satisfy); 
+@import url(https://fonts.googleapis.com/css?family=Oswald:200|Open+Sans:700);
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Oswald", Sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.mainPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.subHeader {
+    color: #585858;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.gridTitle {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 800;
+    color: rgb(99, 91, 91);
+    text-shadow: 2px 2px #0c0c0c;
+    flex: 1;
+}
+
+.gridContainer {
+    background-color: #fafafa;
+    border: 20px solid #E3E3E3;
+}
+
+.gridContainerDark {
+    background-color: #bdbdbd;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.box {
+    border: 1px solid #E3E3E3;
+    width: 18px;
+    height: 18px;
+}
+
+.smallBox {
+    border: 1px solid #E3E3E3;
+    width: 8px;
+    height: 8px;
+}
+
+.hovered {
+    background-color: #7c7c7c;
+}
+
+.rgbHover {
+    background-color: "";
+}
+
+
+
+/*menu items */
+.menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #E3E3E3;
+    border: 20px solid #E3E3E3;
+    padding: 4px;
+}
+
+
+input {
+    border: 1px solid #E3E3E3;
+}
+
+button {
+    font-family: "Oswald", Sans-serif;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid #E3E3E3;
+    padding: 5px;
+    outline: none;
+    cursor: pointer;    
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+button:active {
+  background-color: black;
+  box-shadow: 0 2px 2px #666;
+  transform: translateY(4px);
+};
