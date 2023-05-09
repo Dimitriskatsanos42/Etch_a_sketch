@@ -34,14 +34,14 @@ a {
     text-align: center;
     font-size: 70px;
     font-weight: 800;
-    color: rgb(99, 91, 91);
+    color: rgb(230, 113, 113);
     text-shadow: 2px 2px #0c0c0c;
     flex: 1;
 }
 
 .gridContainer {
     background-color: #fafafa;
-    border: 20px solid #E3E3E3;
+    border: 20px solid  #818080;
 }
 
 .gridContainerDark {
@@ -54,13 +54,13 @@ a {
 }
 
 .box {
-    border: 1px solid #E3E3E3;
+    border: 1px solid  #818080;
     width: 18px;
     height: 18px;
 }
 
 .smallBox {
-    border: 1px solid #E3E3E3;
+    border: 1px solid  #818080;
     width: 8px;
     height: 8px;
 }
@@ -79,14 +79,14 @@ a {
 .menu {
     display: flex;
     flex-direction: column;
-    background-color: #E3E3E3;
-    border: 20px solid #E3E3E3;
+    background-color: #818080;
+    border: 20px solid  #818080;
     padding: 4px;
 }
 
 
 input {
-    border: 1px solid #E3E3E3;
+    border: 1px solid  #818080;
 }
 
 button {
@@ -94,7 +94,7 @@ button {
     margin-top: 10px;
     font-size: 15px;
     font-weight: 400;
-    border: 1px solid #E3E3E3;
+    border: 1px solid  #818080;
     padding: 5px;
     outline: none;
     cursor: pointer;    
